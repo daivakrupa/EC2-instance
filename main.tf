@@ -1,7 +1,7 @@
 module "ec2service" {
   source  = "app.terraform.io/Daivakrupa/ec2service/aws"
   version = "1.0.1"
-  region                    =  var.region
+ 
   ami                       =  "ami-06489866022e12a14"
   instance_type             =  "t2.micro"
   key_name                  =  "terraform-kp.pem"
