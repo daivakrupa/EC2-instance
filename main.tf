@@ -7,6 +7,6 @@ module "ec2service" {
   key_name                  =  "terraform-kp.pem"
   security_group_ids        =  ["sg-073bb75d9a1c74ce9"]
   subnet_id                 =  "subnet-0c4c99f5bda8bd2af"
-  name                      =  "ec2service"
+  name                      =  "ec2-service"
   env                       =  "production"
 }
